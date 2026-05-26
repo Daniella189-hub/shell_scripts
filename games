@@ -1,0 +1,11 @@
+# ! /bin/bash
+
+  Directory_name="assignment_dir" 
+  Path="/c/Users/HP/shell_scripts/"
+
+if [ -d "$Path" ]; 
+then 
+     echo " Directory with a name '$Directory_name' exists in the location"
+else
+     echo "no such directory"
+fi 
